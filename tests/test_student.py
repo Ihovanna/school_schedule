@@ -23,7 +23,7 @@ def test_get_num_classes_adjusts():
 
     # act
     aminah = Student(name, grade, classes)
-    aminah.add("Gym")
+    aminah.add_class("Gym")
 
     # assert
     assert aminah.name == name
